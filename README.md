@@ -58,11 +58,12 @@ _Figure 2: Data ingestion pipeline_
 
 To run this repository, you will need the following set-up:
 
-1. **Docker** (local or on cloud)
-2. **Google Cloud Storage** (with read and write access, and the ability to set up external connections)
-3. **GitHub PAT**
-4. **OpenAI API token**
-5. **PostgreSQL database** (with read and write access)
+1. **AWS EC2**
+2. **Docker**
+3. **Google Cloud Storage** (with read and write access, and the ability to set up external connections)
+4. **GitHub PAT**
+5. **OpenAI API token**
+6. **PostgreSQL database** (with read and write access)
 
 ### Steps
 
@@ -80,6 +81,8 @@ To run this repository, you will need the following set-up:
    OPENAI_API_KEY='your_api_key'
    GITHUB_API_KEY='your_api_key'
    ```
+
+**Note**: If you use Docker Swarm or any other tool to secure secrets such as API keys and connections, you do not need to store API keys in `.env` file.
 
 3. **Build the Airflow and PostgreSQL containers**:
    Follow the instructions to build and run the containers for Airflow and PostgreSQL.
@@ -110,8 +113,6 @@ To run this repository, you will need the following set-up:
 
    ![generate_and_load_embeddings](./src/assets/screenshots/generate_and_load_embeddings-Grid-Airflow.png)
    _Figure 7: Airflow DAG: generate-and-load-embeddings_
-
-**Note**: If you use Docker Swarm or any other tool to secure secrets such as API keys and connections, you do not need to create `.env` files separately for API keys.
 
 ## Directory Structure
 
