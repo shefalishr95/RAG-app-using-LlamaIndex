@@ -1,4 +1,4 @@
-# GitHub Ideation Bot: An End-to-End LLMOps Pipeline with LlamaIndex, Airflow and Docker
+# GitHub Ideation Bot: A LLMOps Pipeline with LlamaIndex, Airflow and Docker
 
 ### Author: [Shefali Shrivastava](https://www.github.com/shefalishr95)
 
