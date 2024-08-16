@@ -1,0 +1,10 @@
+apache-airflow==2.9.3
+apache-airflow-providers-google==10.21.0
+apache-airflow-providers-postgres==5.11.2
+apache-airflow[google]
+llama_index==0.10.58
+llama-index-vector-stores-postgres==0.1.12
+llama-index-core==0.10.58
+psycopg2-binary==2.9.9
+python-dotenv
+openai==1.35.9

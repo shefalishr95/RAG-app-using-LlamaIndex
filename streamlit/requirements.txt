@@ -1,0 +1,6 @@
+streamlit==1.37.0
+openai==openai==1.35.9
+llama-index-agent-openai==0.2.7
+llama_index==0.10.58
+llama-index-vector-stores-postgres==0.1.12
+llama-index-core==0.10.58
