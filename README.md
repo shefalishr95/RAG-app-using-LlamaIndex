@@ -6,13 +6,11 @@
 
 This project features a **semi-automated LLMOps pipeline** designed to scrape README.md files from popular GitHub repositories in the fields of data science and machine learning to identify innovative project ideas and technical insights. The data pipeline, orchestrated entirely on **Airflow**, ingests README.md files and generates embeddings using **LlamaIndex and OpenAI's** legacy embedding model. It then deploys a **chatbot with retrieval-augmented generation (RAG)** capabilities powered by OpenAI's `GPT-3.5` to interact with the embeddings, providing users with relevant responses to queries. The entire pipeline is containerized using **Docker** and hosted on an **AWS EC2** instance (`t2.xlarge`) with **PostgreSQL** as primary database and **Google Cloud Storage** as intermediate database.
 
-![Overview](https://github.com/shefalishr95/RAG-app-using-LlamaIndex/blob/main/src/assets/screenshots/overview.png)
+![Overview](./src/assets/screenshots/overview.png)
 
 _Notice: All information provided is intended solely for educational purposes. When generating ideas using the bot, it is your responsibility to conduct thorough research and ensure the inclusion of accurate citations where applicable. Do not imitate any repository unless it is legally permissible under the license provided. The author takes no responsibility for any conflicts arising therefrom._
 
 ## Purpose
-
-_A non-technical presentation to demonstrate business objective of this project can be found [here](xxx)_
 
 This project is designed to empower students and amateur data enthusiasts by providing a platform to discover creative project ideas and gain technical insights in data science and machine learning. Common LLMs, trained on generic data, often suggest basic projects like house price prediction or movie recommendation systems, which are generally insufficient for demonstrating technical skills by industry standards. This platform, through its chatbot ("GitHub Project Ideas") with retrieval-augmented generation (RAG) capabilities, helps users find more advanced and relevant projects by searching specific topics within README.md files from top GitHub repositories.
 
