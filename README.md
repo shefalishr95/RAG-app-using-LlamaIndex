@@ -52,59 +52,6 @@ _Figure 1: Overall architecture of the model_
 ![Data Ingestion Pipeline](./src/assets/diagrams/data_ingestion.JPG)
 _Figure 2: Data ingestion pipeline_
 
-## Directory Structure
-
-```
-RAG-app-using-LlamaIndex
-├─ config
-│  └─ config.json
-├─ dags
-│  ├─ etl_dag.py
-│  └─ generate_embeddings.py
-├─ logs
-│  └─ scheduler
-│     └─ latest
-├─ plugins
-├─ src
-│  └─ assets
-│     ├─ diagrams
-│     │  ├─ data_ingestion.JPG
-│     │  └─ overall_architecture.JPG
-│     ├─ screenshots
-│     │  ├─ DAGs-Airflow.png
-│     │  ├─ docker-containers.png
-│     │  ├─ generate_and_load_embeddings-Grid-Airflow.png
-│     │  ├─ github_data_scraping_etl-Grid-Airflow.png
-│     │  ├─ overview.png
-│     │  ├─ pgadmin-1.png
-│     │  └─ pgadmin-2.png
-│     └─ videos
-│        ├─ GitHub Project Ideas-anamoly detection-papers only.webm
-│        ├─ GitHub Project Ideas-CV.mp4
-│        ├─ GitHub Project Ideas-time series forecasting.webm
-│        ├─ GitHub Project Ideas-time series.mp4
-│        ├─ GitHub Project Ideas-zero shot learning.webm
-│        └─ main-page.gif
-├─ streamlit
-│  ├─ app.py
-│  └─ requirements.txt
-├─ utils
-│  ├─ __pycache__
-│  │  ├─ embed.cpython-311.pyc
-│  │  ├─ extract.cpython-311.pyc
-│  │  ├─ process.cpython-311.pyc
-│  │  └─ __init__.cpython-311.pyc
-│  ├─ embed.py
-│  ├─ extract.py
-│  ├─ process.py
-│  └─ __init__.py
-├─ docker-compose.yaml
-├─ Dockerfile
-├─ LICENSE
-├─ README.md
-└─ requirements.txt
-```
-
 ## Installation and Usage
 
 ### Prerequisites
@@ -166,6 +113,59 @@ To run this repository, you will need the following set-up:
 
 **Note**: If you use Docker Swarm or any other tool to secure secrets such as API keys and connections, you do not need to create `.env` files separately for API keys.
 
+## Directory Structure
+
+```
+RAG-app-using-LlamaIndex
+├─ config
+│  └─ config.json
+├─ dags
+│  ├─ etl_dag.py
+│  └─ generate_embeddings.py
+├─ logs
+│  └─ scheduler
+│     └─ latest
+├─ plugins
+├─ src
+│  └─ assets
+│     ├─ diagrams
+│     │  ├─ data_ingestion.JPG
+│     │  └─ overall_architecture.JPG
+│     ├─ screenshots
+│     │  ├─ DAGs-Airflow.png
+│     │  ├─ docker-containers.png
+│     │  ├─ generate_and_load_embeddings-Grid-Airflow.png
+│     │  ├─ github_data_scraping_etl-Grid-Airflow.png
+│     │  ├─ overview.png
+│     │  ├─ pgadmin-1.png
+│     │  └─ pgadmin-2.png
+│     └─ videos
+│        ├─ GitHub Project Ideas-anamoly detection-papers only.webm
+│        ├─ GitHub Project Ideas-CV.mp4
+│        ├─ GitHub Project Ideas-time series forecasting.webm
+│        ├─ GitHub Project Ideas-time series.mp4
+│        ├─ GitHub Project Ideas-zero shot learning.webm
+│        └─ main-page.gif
+├─ streamlit
+│  ├─ app.py
+│  └─ requirements.txt
+├─ utils
+│  ├─ __pycache__
+│  │  ├─ embed.cpython-311.pyc
+│  │  ├─ extract.cpython-311.pyc
+│  │  ├─ process.cpython-311.pyc
+│  │  └─ __init__.cpython-311.pyc
+│  ├─ embed.py
+│  ├─ extract.py
+│  ├─ process.py
+│  └─ __init__.py
+├─ docker-compose.yaml
+├─ Dockerfile
+├─ LICENSE
+├─ README.md
+└─ requirements.txt
+```
+
 ## License
 
-MIT License
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
