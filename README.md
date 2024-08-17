@@ -43,7 +43,7 @@ Beyond its primary educational purpose, this project also presents business pote
 - **Cloud Hosting**: Hosted on AWS EC2 `t2.xlarge`.
 - **Modularized code**: Aimed to design the codebase with modular components to enhance maintainability and reusability.
 
-\*The web app is currently unavailable due to resource constraints.
+\*The web app is currently unavailable for open access due to resource constraints, but can be replicated by using this repository. Artifacts such as screenshots and videos can be found in the `src/assets` folder.
 
 ## Architecture
 
