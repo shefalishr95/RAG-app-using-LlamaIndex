@@ -41,6 +41,7 @@ Beyond its primary educational purpose, this project also presents business pote
 - **Interactive Chatbot**: Deployed a RAG chatbot using GPT-3.5 on Streamlit.\*
 - **Containerized Deployment**: Used Docker for seamless deployment and scalability.
 - **Cloud Hosting**: Hosted on AWS EC2 `t2.xlarge`.
+- **Modularized code**: Aimed to design the codebase with modular components to enhance maintainability and reusability.
 
 \*The web app is currently unavailable due to resource constraints.
 
