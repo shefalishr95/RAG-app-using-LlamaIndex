@@ -16,7 +16,7 @@ This project is designed to empower students and amateur data enthusiasts by pro
 
 ![Overview-2](./src/assets/videos/main-page.gif)
 
-Beyond its educational value, this project also offers business potential. With the growing interest in data science, there's an increasing demand for resources that go beyond the basics. This project targets this need by offering a unique resource that isn't commonly available, catering to a large and eager audience in the field.
+Beyond its primary educational purpose, this project also presents business potential. While it is designed to be a resource for learning and development in data science, the growing demand for advanced resources highlights its potential market value. Although not created for commercial use, it presents a unique resource that could cater to a broad and eager audience in the field.
 
 ## Tech stack
 
