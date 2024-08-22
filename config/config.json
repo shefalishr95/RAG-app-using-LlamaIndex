@@ -1,0 +1,78 @@
+{
+    "gcs": {
+        "raw_files_upload_bucket": "github_raw_files",
+        "processed_files_upload_bucket": "github_processed_files",
+        "gcs_connection_id": "GCS_Connection_Default"
+    },
+    "postgres": {
+        "postgres_connection_id": "PG_Connection_Default",
+        "model_vector_len": 1536,
+        "database" : "default_database",
+        "host": "your-elastic-IP-address",
+        "password": "Postgres",
+        "user": "Postgres",
+        "port": 5433,
+        "tablename": "embeddings"
+    },
+    "files": {
+        "temp_data_path": "/opt/airflow/dags/"
+    },
+    "git-scraping": {
+        "permissive_licenses": [
+            "MIT",
+            "Apache-2.0",
+            "BSD-3-Clause",
+            "BSD-2-Clause",
+            "ISC",
+            "Unlicense",
+            "Zlib"
+        ],
+        "topics": [
+            "machine-learning",
+            "data-science",
+            "neural-network",
+            "decision-trees",
+            "computer-vision",
+            "natural-language-processing",
+            "reinforcement-learning",
+            "deep-learning",
+            "predictive-analytics",
+            "big-data",
+            "data-mining",
+            "image-processing",
+            "pattern-recognition",
+            "speech-recognition",
+            "generative-adversarial-networks",
+            "time-series-analysis",
+            "time-series",
+            "explainable-ai",
+            "automated-machine-learning",
+            "anomaly-detection",
+            "ensemble-learning",
+            "recommendation-systems",
+            "ethical-ai",
+            "data-visualization",
+            "bayesian-statistics",
+            "unsupervised-learning",
+            "supervised-learning",
+            "regression-analysis",
+            "classification-algorithms",
+            "clustering-algorithms",
+            "dimensionality-reduction",
+            "time-series-forecasting",
+            "healthcare-analytics",
+            "financial-analytics",
+            "social-network-analysis",
+            "speech-synthesis",
+            "rag",
+            "llms",
+            "automl",
+            "semi-supervised-learning",
+            "self-supervised-learning",
+            "zero-shot-learning",
+            "few-shot-learning"
+        ],
+        "n": 1
+    }
+  }
+  

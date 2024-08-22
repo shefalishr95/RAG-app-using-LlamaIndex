@@ -13,7 +13,7 @@ dags/*.md
 # Other sensitive files
 *.key
 *.pem
-*.json
+
 
 # Distribution / packaging
 .Python
